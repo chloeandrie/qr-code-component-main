@@ -28,7 +28,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-When first learning CSS, I immediately jumped to Flexbox and Grid to create responsive layouts. Starting this challenge, I focused on working with the browser's natural responsiveness - not fighting it with lots of wrappers, containers, flexbox, grid, and/or media queries. I think I got pretty close on my first Frontend Mentor Challenge.
+Feedback from Frontend Mentor suggested that I use flexbox to center the QR card, instead of using margin.
+
+I also checked the accessibility errors and took a try at correcting those like including an h1.
+
+And I noticed small differences between mine and the original design (e.g., adding a box-shadow).
 
 ### Continued development
 

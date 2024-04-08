@@ -7,6 +7,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 3rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -17,15 +18,25 @@
   --clr-light-gray: hsl(212, 45%, 89%);
   --clr-grayish-blue: hsl(220, 15%, 55%);
   --clr-dark-blue: hsl(218, 44%, 22%);
+  --clr-shadow: hsla(217, 45%, 22%, 0.059);
 }
 
 body {
   font-family: "Outfit";
   font-size: 15px;
   background-color: var(--clr-light-gray);
+  min-height: 100vh;
 }
 
-h3 {
+main {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--clr-dark-blue);
   padding: 1rem;
@@ -50,5 +61,5 @@ img {
   background-color: var(--clr-white);
   border-radius: 5%;
   padding: 1rem;
-  margin: 3rem auto;
+  box-shadow: 10px 10px 1px var(--clr-shadow);
 }
